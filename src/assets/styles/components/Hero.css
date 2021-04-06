@@ -2,12 +2,57 @@
   border: 2px solid #8e0038;
   border-radius: 10px;
   height: 600px;
-
-  background-color: #b5959f;
   background-size: 900px 600px; /*tamaño de la imagen*/
   background-repeat: no-repeat; /*quitar la secuencia de repetición de la imagen*/
   background-position-x: right;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-between;
+  grid-template-columns: 40% 60%;
+}
+
+.hero-text h1 {
+  font-size: 40px; /*tamaño de la letra*/
+  line-height: 1.5em; /*separación entre renglones*/
+  letter-spacing: -0.2px; /*espacio entre letras de una misma palabra*/
+  color: black; /*color de la fuente*/
+  margin: 0;
+  text-align: start;
+}
+
+h1 strong {
+  color: #8e0038; /*color de la letra del 'strong' */
+  font-size: 55px;
+}
+.strong1 {
+  color: yellow; /*color de la letra del 'strong' */
+  font-size: 50px;
+}
+.strong2 {
+  color: blue; /*color de la letra del 'strong' */
+  font-size: 50px;
+}
+.strong3 {
+  color: red; /*color de la letra del 'strong' */
+  font-size: 50px;
+}
+
+.strong4 {
+  font-size: 40px;
+  line-height: 1.5em;
+  letter-spacing: -0.2px;
+  color: #000;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }

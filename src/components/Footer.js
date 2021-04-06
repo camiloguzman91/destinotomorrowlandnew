@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className="footer">
         <p>
-          Destino Tomorrowland. 2020 <img src={mainlogoblack} alt="Logo" />
+          Destino Tomorrowland. 2021 <img src={mainlogoblack} alt="Logo" />
         </p>
         <p>
           Designed by <a href="https://twitter.com/camiloguzman_91" target="_blank" rel="noreferrer">@camiloguzman_91</a>
