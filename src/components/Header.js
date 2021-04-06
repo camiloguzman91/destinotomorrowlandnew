@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../assets/styles/components/Header.css'
 
 import mainlogo from '../assets/static/tom_logo.png'
@@ -12,16 +13,16 @@ const Header = () => {
       <nav className="menu">
         <ul>
           <li>
-            <a className="link" href="#Inicio">Inicio</a>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <a className="link" href="https://camiloguzman91.github.io/destinotomorrowland-guia/">Guía</a>
+            <Link to="/guia">Guía</Link>
           </li>
           <li>
-            <a className="link" href="https://camiloguzman91.github.io/destinotomorrowland-galeria/">Galería fotográfica</a>
+            <Link to="/galeria">Galería fotográfica</Link>
           </li>
           <li>
-              <a className="link" href="https://camiloguzman91.github.io/destinotomorrowland-videos/">Videos</a>
+            <Link to="/videos">Videos</Link>
           </li>
           <li>
             <a className="link" href="#Contacto">Contacto</a>
