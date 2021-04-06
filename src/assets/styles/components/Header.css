@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.header a {
+  color: #8e0038;
+  text-decoration: none; /*quitar el subrayado del enlace*/
+  font-size: 25px;
+  padding: 0 40px;
+}
