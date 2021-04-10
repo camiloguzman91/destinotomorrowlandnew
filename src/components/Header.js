@@ -25,7 +25,7 @@ const Header = () => {
             <Link to="/videos">Videos</Link>
           </li>
           <li>
-            <a className="link" href="#Contacto">Contacto</a>
+            <a className="link" href="#Contact">Contacto</a>
           </li>
         </ul>
       </nav>

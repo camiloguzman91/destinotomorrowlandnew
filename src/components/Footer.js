@@ -5,7 +5,7 @@ import mainlogoblack from '../assets/static/tom_logo_n.png'
 
 const Footer = () => {
   return (
-    <div>
+    <div id="#Contact">
       <div className="contact">
         <div className="container-final">
           <form action="/Contacto/" className="form-email">
