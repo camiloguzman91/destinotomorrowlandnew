@@ -12,7 +12,7 @@ const NotFound = () => {
         <p class="p-b">Lo que estás buscando no se encuentra acá</p>
         <a href='/' class="back">Regresar</a>
       </div>
-</div>
+    </div>
   )
 }
 

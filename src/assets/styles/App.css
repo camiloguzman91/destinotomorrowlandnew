@@ -5,3 +5,9 @@
   text-align: center;
   background-color: #b5959f;
 }
+
+@media screen and (max-width: 1562px) {
+  .App {
+    margin: 0;
+  }
+}
