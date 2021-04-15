@@ -56,3 +56,47 @@ h1 strong {
   object-fit: cover;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: auto;
+  }
+  .main-image {
+    display: grid;
+    align-items: center;
+    justify-content: end;
+  }
+  .main-image img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .hero-text h1 {
+    font-size: 35px;
+  }
+  h1 strong {
+    font-size: 45px;
+  }
+  .strong1 {
+    font-size: 40px;
+  }
+  .strong2 {
+    font-size: 40px;
+  }
+  .strong3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    display: block;
+  }
+  .hero-text h1 {
+    text-align: center;
+  }
+  .main-image {
+    justify-content: center;
+  }
+}

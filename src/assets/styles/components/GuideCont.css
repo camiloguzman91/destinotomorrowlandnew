@@ -141,10 +141,6 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
-  .burguer-button {
-    display: block;
-    cursor: pointer;
-  }
   .hero,
   .hero1 {
     height: auto;
